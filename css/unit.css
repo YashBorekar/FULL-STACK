@@ -1,0 +1,60 @@
+/* 
+units = px , % , vh , vw , em , rem 
+
+1. 1px = 1px on screen 
+DPI(depth per inch)
+it hides the content gives scrollbar for looking at content
+we can fix it using px -> vw
+imaget cant get fit for all screen it remains same 
+
+
+2. % (percentage) - Humesha apne parent se value leta hai uske according pecent set krta hai 
+jitna total hai uska hissa 
+70% - mtlb 70% screen ka dedo
+it manages its size according to screen(dynamic)
+
+3. vw / vh  - humesha screen ka values leta hai aur % set krta hai
+either same as percentage
+
+4. 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#test{
+    background-color: brown;
+    width: 30vw; /* total scrren ka 10% le lega (is it same like percentage ?)
+    no they are not same */
+    height: 30vh;
+
+}
+
+#test_child{
+    width: 50%; /* 50% width and height according to its parent dimesnions*/
+    height: 50%;
+    background-color: blueviolet;
+}
+
+#em_demo{
+    font-size: 10px;
+    width: 5em; /*depend on the font size -> 5em = 5*font-size -> 5*10-50px */
+    height: 5em;/* fixed on page gives scrollbar*/
+    background-color: red;
+}
+
+html{
+    font-size: 10px;
+}
+#rem_demo{
+    width: 10rem;
+    height: 10rem;
+    background-color: yellow;
+}

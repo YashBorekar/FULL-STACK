@@ -1,0 +1,20 @@
+#div1{
+    /*position: absolute;*/ /* It will flow at 1st layer (bottom)*/
+    width:100px;
+    height:150px;
+    background-color: teal;
+}
+#div2{
+    position: absolute; /* it makes the element to flow at specific height(layer) no other element can exist at this layer*/
+    /* right: 50%; */
+    width:150px;
+    height:100px;
+    background-color:tomato;
+}
+#div3{
+        position: absolute; /*As this is the third ele it will be at top layer */
+        width:200px;
+        height:80px;
+        background-color:slategray;
+
+}

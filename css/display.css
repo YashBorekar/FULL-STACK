@@ -1,0 +1,11 @@
+.inline{
+  display: inline; /**if set as in line we cant change width /height */
+  background-color: aqua;     
+}
+
+.inline_block{  
+    background-color: lightslategray;  
+    display: inline-block; /*act as a inline & block and WxH can be change*/
+    width: 200px;
+    height: 200px;   
+}
