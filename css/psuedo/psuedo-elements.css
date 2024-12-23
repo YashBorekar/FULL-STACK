@@ -1,0 +1,30 @@
+/*before and after are there for every element in inactive state one can use it*/
+/* p::before{                             
+    content: '>>';
+    }
+    p::after{
+    content: '<<';
+    } */
+/* p::first-line{
+    font-family: cursive;
+}
+p::first-letter{
+    font-size: 20px;
+}
+p::selection{
+    color: red;
+} */
+
+/*before and after magic*/
+p{
+    position: relative;
+}
+
+p::before{
+  content: '';
+  background-color: darkmagenta;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 100%;
+}
