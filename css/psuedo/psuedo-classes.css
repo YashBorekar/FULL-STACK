@@ -1,10 +1,14 @@
-button:hover{
+button:hover{ /*when use traverse through element this effect comes in picture*/
    background-color: lightcoral;
    cursor: pointer;
 }
 
-button:active{
+button:active{  /*when user makes action click on the element its in effect*/
     background-color: lightslategray;
+}
+
+input:focus{                /*basically represent the change when user control is inside the element*/
+    background-color: rgb(185, 227, 227);
 }
 
 button{
@@ -12,7 +16,7 @@ button{
     width: fit-content;
     padding: 5px;
 }
-div{
-    display: flex;
-    justify-content: center;
+
+p:nth-child(2n){                       /*Select the child element in sequential order if number(n) is written then multipe of numeber th elements selected*/
+    color: darkslateblue;
 }
