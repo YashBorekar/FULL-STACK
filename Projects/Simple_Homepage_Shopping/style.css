@@ -15,44 +15,46 @@ html,body{
     background-color: #ededed;
     display: grid;
     grid-template-columns  :25% 25% 50%;
-    grid-template-rows: 26% 55% 19%;
+    grid-template-rows: 29% 52% 19%;
 }
 
-#left-top-left{
-    /* background-color: crimson; */
-}
 #left-top-right{
-    /* background-color: chocolate; */
    justify-self: right;
-   padding:20px;
+   padding:18px;
    text-align: right;
 }
 
 #left-top-right h4{
-   margin-bottom:20px;
-   font-size: 20px;
-   font-weight: 500;
+    font-size: 15px;
+   margin-bottom:10px;
+   font-weight: 100;
 }
+
 #left-top-right h5{
-    font-size: 17px;
-    font-weight: 500;
+  font-weight: 100;
+  font-size: 14px;
+  margin-bottom: 2px;
+  
 }
+#left-top-right i{
+    display: none;
+}
+
 #square{
     background-color: black;
     height: 20px;
     width: 20px;
     rotate: 45deg;
-    margin: 15px;
+    margin: 20px;
 }
 #left-center{
-    /* background-color: royalblue; */
     grid-column: 1/3;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 #left-center h1{
-    font-size: 5vw;
+    font-size: 6vw;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:100;
@@ -64,7 +66,6 @@ html,body{
 }
 
 #left-bottom{
-    /* background-color: chartreuse; */
     grid-column: 1/3;
     padding: 30px;
 }
@@ -74,7 +75,6 @@ html,body{
     font-weight: 500;
 }
 #right{
-    /* background-color: blueviolet; */
     grid-row: 1/4 ;
     grid-column: 3;
     padding: 20px 90px 20px 0;
@@ -91,11 +91,11 @@ html,body{
 #arrow{
     position: absolute;
     top: 50%;
-    right: 45%;
+    right: 43.5%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(95, 0, 238);
+    background-color: rgba(59, 52, 71, 0.813);
     color: white;
     padding: 20px;
     border-radius: 50%;
@@ -105,4 +105,74 @@ html,body{
 #arrow i{
     font-size: 40px;
     font-weight: 100;
+}
+
+@media screen and (max-width: 600px) {
+
+#main{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 10% 40% 10% 40%;
+}
+
+#left-top-right h4{
+    display: none;
+}
+#left-top-right h5{
+  display: none;
+}
+#left-top-right i{
+    display: block;
+}
+
+#square{
+    height: 15px;
+    width: 15px;
+}
+
+#left-center{
+    margin: 5px;
+}
+
+#left-center h1{
+    font-size: 15vw;
+    line-height: 14vw;
+}
+
+#left-center h1:nth-child(2n){
+    text-align:right;
+}
+
+#left-bottom{
+    padding: 10px;
+    justify-items: center;
+}
+
+#left-bottom p{
+    width:90%;
+    font-size: 2.7vw;
+    font-weight: 500;
+}
+#right{
+    grid-row: 4;
+    grid-column: 1/3;
+}
+
+#right video{
+  margin-left: 20%;
+}
+
+#arrow{
+    position: absolute;
+    top: 63%;
+    right: 40%;
+    background-color: rgba(59, 52, 71, 0.813);
+    padding: 12px;
+}
+
+#arrow i{
+    font-size: 17px;
+    rotate: 90deg;
+}
+    
 }
