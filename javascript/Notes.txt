@@ -1,0 +1,10 @@
+js language
+managed by ecmascript
+es5 & es6 both are version of js
+es5 and before- var (older things are there)
+es6 and after - let
+
+dom - code likhkar chejen banana sikhna 
+
+basics - files connect, load script , basic code execution , grammar and understanding of errors
+
