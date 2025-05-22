@@ -8,3 +8,29 @@ dom - code likhkar chejen banana sikhna
 
 basics - files connect, load script , basic code execution , grammar and understanding of errors
 
+Primitive types are the most basic data types in JavaScript. They are immutable (cannot be changed) and are stored by value.
+Here are the 7 primitive data types:
+
+Data Type	Description	             Example
+String  	Textual data	      "Hello"
+Number  	Numeric values          (integers & floats)	42, 3.14
+BigInt	    Large integers           beyond Number limit	123456789012345678901234567890n
+Boolean 	True or false	          true, false
+undefined	Variable declared   	let x; // undefined
+            but not assigned 
+            a value
+null    	Represents intentional
+             absence of value	        let y = null;
+Symbol  	Unique and immutable
+                 identifiers	    Symbol("id")
+
+Non-Primitive (Reference) Data Types
+Non-primitive types are objects. They are mutable and stored by reference.
+
+Examples include: (),{},[]
+
+Data Type	    Description                      	Example
+Object	       Collection of key-value pairs	{ name: "Alice", age: 25 }
+Array	        Ordered list of values      	[1, 2, 3, 4]
+Function    	Callable object	                function greet(){}
+Date, RegExp, etc.	Special built-in object types	new Date(), /abc/
