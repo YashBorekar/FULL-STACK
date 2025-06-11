@@ -1,18 +1,18 @@
 .img{
     width: 300px;
     height: 400px;
+    border: 1px solid;
     background: url('https://images.unsplash.com/photo-1730292422392-ebe05786caa7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     /* background-size: cover; ensurse that the div gets filled with image */
     background-size: contain; /* ensurse that the div gets whole image even if repeated */
     background-repeat: no-repeat; /*if using backgeound-contain img gets repeated we can remove it*/
-    /* background-position: center; make the image in center of element */
-    /* background-position: top; make the image in center of element */
-    /* background-position: bottom; make the image in center of element */
+    background-position: center; /*  center of element , positions - center,top,bottom,left,right*/
+    
 
 }
 
 .gradient{
     width: 500px;
     height: 500px;
-    background: linear-gradient(to right,red,yellow) ;
+    background: linear-gradient(to left,red,yellow) ;
 }
