@@ -31,8 +31,7 @@ html,body{
 }
 #test{
     background-color: brown;
-    width: 30vw; /* total scrren ka 10% le lega (is it same like percentage ?)
-    no they are not same */
+    width: 30vw; /* 30% of the window width (if we scale up or down the window size it changes accordingly*/
     height: 30vh;
 
 }
