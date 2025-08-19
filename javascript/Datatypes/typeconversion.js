@@ -70,5 +70,6 @@ function objectToString() {
     return String(obj);
 }
 
-objectToString();
-nullToNumber();
+// objectToString();`
+// nullToNumber();
+undefinedToNumber();
