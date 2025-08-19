@@ -5,7 +5,7 @@ console.log(a);
 console.log(b);        // primitive types are always pass by value
 
 var arr = [1,2,3,4,23,4,2];
-var arr2 = arr;
+var arr2 = arr; 
 
 console.log(arr);
 console.log(arr2);     
