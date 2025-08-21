@@ -43,9 +43,10 @@ console.log(statement.indexOf("photo")); // 9
 console.log(statement.lastIndexOf("photo")); // 36
 
 // 7. Extracting Substring
+
 let movie = "The Shawshank Redemption";
 
-/* Slice */
+// Slice
 console.log(movie.slice(4, 13)); // Shawshank  (id doesnt consider end index value) 0-12 gets printed
 
 // *** slice also has a negative index
