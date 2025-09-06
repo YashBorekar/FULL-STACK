@@ -18,6 +18,10 @@ function sum(number1,number2) {
 function multiply(number1,number2) {
     return (number1*number2);
 };
+
+const mul = (number1,number2)=>{ number1*number2};
+console.log(mul(1,2))
+
       
 sum(3,4); // 3,4 -> Arguments
 console.log(multiply(10,15));
