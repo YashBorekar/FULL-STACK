@@ -28,6 +28,7 @@ either same as percentage
 html,body{
     width: 100%;
     height: 100%;
+    /* font-size: 15px; */
 }
 #test{
     background-color: brown;
@@ -43,7 +44,7 @@ html,body{
 }
 
 #em_demo{
-    font-size: 10px;
+    font-size: 5px;
     width: 5em; /*depend on the font size -> 5em = 5*font-size -> 5*10-50px */
     height: 5em;/* fixed on page gives scrollbar*/
     background-color: red;
@@ -53,7 +54,7 @@ html{
     font-size: 10px;
 }
 #rem_demo{
-    width: 10rem;
+    width: 10rem; /* depend on the root element font size -> 10rem = 10*root-font-size -> 10*10 = 100px */
     height: 10rem;
     background-color: yellow;
 }

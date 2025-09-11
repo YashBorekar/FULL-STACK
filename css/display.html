@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="display.css">
-    <title>Document</title>
+    <title>CSS Display Properties Demo</title>
 </head>
 <body>
-    <p class="inline">class->Inline</p>
-    <p class="inline">class->Inline</p>
-    <p class="inline_block">class-> Inline-block</p>
-    <p class="inline_block">class->Inline-block</p>
+    <h1>CSS Display Properties: Block vs Inline vs Inline-Block</h1>
+    
+    <!-- Block Elements -->
+    <section>
+        <h2>1. Block Display</h2>
+        <p class="description">Block elements take up the full width available and start on a new line.</p>
+        <div class="block">Block Element 1</div>
+        <div class="block">Block Element 2</div>
+        <div class="block">Block Element 3</div>
+    </section>
 
-     <div>
-        <img src="../Images/css/display.PNG" alt="">
-     </div> 
+    <!-- Inline Elements -->
+    <section>
+        <h2>2. Inline Display</h2>
+        <p class="description">Inline elements only take up as much width as necessary and don't break the line.</p>
+        <span class="inline">Inline 1</span>
+        <span class="inline">Inline 2</span>
+        <span class="inline">Inline 3</span>
+        <span class="inline">Inline 4</span>
+    </section>
+
+    <!-- Inline-Block Elements -->
+    <section>
+        <h2>3. Inline-Block Display </h2>
+        <p class="description">Inline-block elements flow like inline but can have width and height like block.</p>
+        <div class="inline-block">Inline-Block 1</div>
+        <div class="inline-block">Inline-Block 2</div>
+        <div class="inline-block">Inline-Block 3</div>
+    </section>
+
+    <!-- Comparison -->
+    <section>
+        <h2>4. Side-by-Side Comparison</h2>
+        <div class="comparison">
+            <div class="block">I'm BLOCK</div>
+            <span class="inline">I'm INLINE</span>
+            <span class="inline">I'm INLINE too</span>
+            <div class="inline-block">I'm INLINE-BLOCK</div>
+            <div class="inline-block">I'm INLINE-BLOCK too</div>
+        </div>
+    </section>
 </body>
 </html>
