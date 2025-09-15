@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stone Paper Scissor</title>
+  <style>
+      body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+  }
+  .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    width: 35vw;
+    border: 1px solid red;
+  }
+  .players {
+    height: 7vh;
+    width: 7vw;
+    border: 1px solid red;
+  }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div id="p1" class="players">
+       
+    </div>
+    <div id="p2" class="players">
+ 
+    </div>
+    <button id="btn">Play</button>
+  </div>
+  <p class="result"></p>
+  <script src="script.js"></script>
+</body>
+</html>
