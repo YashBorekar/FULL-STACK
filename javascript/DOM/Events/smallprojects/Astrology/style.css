@@ -1,0 +1,129 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #4a5568;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header p {
+            color: #718096;
+            font-size: 1.1rem;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #4a5568;
+            font-size: 1rem;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: #f7fafc;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            background: white;
+        }
+
+        .date-inputs {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 15px;
+        }
+
+        .name-inputs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .zodiac-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 30px 20px;
+            }
+            
+            .date-inputs,
+            .name-inputs {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+        }
