@@ -44,3 +44,15 @@ console.log("Decrement Result:", decrementValue);
 
 let cal = (8*(5+5)/5*(10%2)-3);
 console.log("Calculation Result:", cal);
+
+/*
+Addition Result: 8
+Subtraction Result: 5
+Multiplication Result: 24
+Division Result: 8
+Modulus Result: 1
+Exponentiation Result: 8
+Increment Result: 6
+Decrement Result: 4
+Calculation Result: -3
+*/

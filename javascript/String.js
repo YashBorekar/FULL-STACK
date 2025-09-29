@@ -53,7 +53,9 @@ console.log(movie.slice(4, 13)); // Shawshank  (id doesnt consider end index val
 // length - 25 (0-24 indexing) positive
 // negative indexing - -24 -23 -22 -21..... -1
 //                      T   h   e       S....... n
-console.log(movie.slice(-24, -21)); // the
+// It doesnt include last index mentioned
+
+console.log(movie.slice(-24, -21)); // the 
 console.log(movie.slice(-24, 5)); // one neg & one positive
 
 /** Substring */
