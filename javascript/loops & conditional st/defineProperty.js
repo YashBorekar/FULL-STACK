@@ -5,12 +5,16 @@ const obj = {
     property3: true
 };
 
+// getOwnPropertyDescriptor() - It returns an object describing the configuration of a specific property on a given object
+console.log(Object.getOwnPropertyDescriptor(obj, 'property1')); 
+// { value: 42, writable: true, enumerable: true, configurable: true }
+console.log
 
 // Object.defineProperty(obj, 'property1', {
 //     value: 42,
 //     writable: true,  // It can be changed
 //     enumerable: true, // It will show up in for-in loops and Object.keys()
-//     configurable: true // It can be deleted or reconfigured
+//     configurable: true  // It can be deleted or reconfigured
 // });
 
 // for(let val in obj){
