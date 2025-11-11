@@ -64,7 +64,7 @@
 //         }, 1000);
 //     }, 1000);
 // }, 1000);
-// it will call the function after every 1 seconds and print 1st, 2nd, 3rd, 4th Timeout
+// it will call the function after every 1 seconds and print 1st, 2nd, 3rd, 4th Timeout 
 // This is called callback hell because of nested callbacks
 // To avoid callback hell we use Promises and async/await in JavaScript
 // Promises and async/await will be discussed later
